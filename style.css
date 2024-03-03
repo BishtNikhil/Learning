@@ -1,0 +1,81 @@
+
+body{
+    background-color: black;
+
+}
+.container {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+}
+
+#gfg{
+    background-color: rgb(45, 2, 2);
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+    color: green;
+}
+
+#menu {
+    text-align: left;
+    background-color: rgb(45, 2, 2);;
+    height: 50%;
+}
+
+#menu ul {
+    display: inline-block;
+    height: 100%;
+}
+
+#menu li {
+    margin-top: 0;
+    display: inline-block;
+    height: 100%;
+    
+}
+
+#menu li a, #menu li span {
+    display: inline-block;
+    padding: 1.0em 1.50em;
+    text-decoration: none;
+    font-weight: 600;
+    line-height: 0px;
+    color: white;
+}
+
+#menu li:hover a, #menu li:hover span {
+    background-color: rgb(45, 2, 2);
+    color: green;
+}
+
+h2{
+    color: green;
+    pad;
+}
+
+h3{
+    color: white;
+    text-align: right;
+    padding-right: 450px;
+}
+
+p{
+    
+    color: aliceblue;
+}
+
+.cards{
+    float: left;
+    border-bottom: 2px solid white;
+    width: calc((100% - 3rem) / 3);
+    padding-right: 30%;
+   
+}
+
+.cards1{
+    float: right;
+
+}
+
+
